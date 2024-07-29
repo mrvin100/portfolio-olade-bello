@@ -1,0 +1,57 @@
+@charset 'utf-8';
+/* Custom css file made by JeanDoe */
+
+
+/* import styles starts */
+
+@import url('./header.css');
+
+/* declaration of variables */
+
+:root{
+    --main-color: ;
+    --black: ;
+    --white: #fff;
+    --light-color: #888;
+    --light-bg: rgb(24, 28, 35);
+    --orange-color: rgb(246, 120, 103);
+}
+
+/* Initialisation */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+/* base code */
+
+html{
+    font-size: 90%;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-weight: normal;
+    background-color: var(--light-bg);
+}
+
+a{
+    color: var(--black);
+}
+
+/*  resusables classes */
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+
+.btn{
+
+}
